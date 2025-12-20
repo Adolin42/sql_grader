@@ -1,0 +1,21 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password",
+        "database": "test_db"
+    },
+    "modules": [
+        {
+            "name": "Module 1: Basic Queries",
+            "tests": [
+                {
+                    "id": "q1",
+                    "name": "Simple SELECT",
+                    "description": "Select all rows",
+                    "expected_output_file": "expected/q1.csv"
+                }
+            ]
+        }
+    ]
+}
